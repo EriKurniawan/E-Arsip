@@ -18,8 +18,7 @@
     dir="ltr"
     data-theme="theme-default"
     data-assets-path="{{ asset('public/sneat/') }}"
-    data-template="vertical-menu-template-free"
->
+    data-template="vertical-menu-template-free">
 <head>
     <meta charset="utf-8"/>
     <meta
@@ -32,7 +31,7 @@
     <meta name="description" content=""/>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{asset('sneat/img/favicon/favicon.ico')}}"/>
+    <link rel="icon" type="image/x-icon" href="{{ asset('sneat/img/favicon/favicon.ico') }}"/>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -43,16 +42,16 @@
     />
 
     <!-- Icons. Uncomment required icon fonts -->
-    <link rel="stylesheet" href="{{asset('sneat/vendor/fonts/boxicons.css')}}"/>
+    <link rel="stylesheet" href="{{ asset('sneat/vendor/fonts/boxicons.css') }}"/>
 
     <!-- Core CSS -->
-    <link rel="stylesheet" class="template-customizer-core-css" href="{{asset('sneat/vendor/css/core.css')}}"/>
+    <link rel="stylesheet" class="template-customizer-core-css" href="{{ asset('sneat/vendor/css/core.css') }}"/>
     <link rel="stylesheet" class="template-customizer-theme-css"
-          href="{{asset('sneat/vendor/css/theme-default.css')}}"/>
-    <link rel="stylesheet" href="{{asset('sneat/css/demo.css')}}"/>
+          href="{{ asset('sneat/vendor/css/theme-default.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('sneat/css/demo.css') }}"/>
 
     <!-- Page -->
-    <link rel="stylesheet" href="{{asset('sneat/vendor/css/pages/page-auth.css')}}"/>
+    <link rel="stylesheet" href="{{ asset('sneat/vendor/css/pages/page-auth.css') }}"/>
 </head>
 
 <body>
@@ -67,7 +66,7 @@
                     <!-- Logo -->
                     <div class="app-brand justify-content-center">
                         <a href="{{ route('home') }}" class="app-brand-link gap-2">
-                            <img src="{{ asset('kominfo-logo.png') }}" alt="{{ config('app.name') }}" srcset="" width="75px">
+                            <img src="{{ asset('logo pemda.png') }}" alt="{{ config('app.name') }}" srcset="" width="75px">
                         </a>
                     </div>
 
