@@ -9,7 +9,7 @@ return [
     ],
     'incoming_letter' => 'Surat Masuk',
     'outgoing_letter' => 'Surat Keluar',
-    'disposition_letter' => 'Surat Disposisi',
+    'disposition_letter' => 'Disposisi',
     'active_user' => 'Pengguna Aktif',
     'view_more' => 'Lihat Detail',
     'today_report' => 'Laporan hari ini',
